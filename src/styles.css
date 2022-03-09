@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #c0baba;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  background-color: #2b2c2b;
+  padding: 1rem;
+  color: #fff;
+}
+.add-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-container input {
+  border: 0;
+  border-bottom: 2px solid rgb(97, 97, 247);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  outline: none;
+  margin-right: 15px;
+}
+.add-container button {
+  border: 0;
+  background-color: rgb(97, 97, 247);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-weight: bold;
+}
+.notes-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notes-list table {
+  background-color: rgb(223, 206, 206);
+  width: 500px;
+}
+.notes-list table thead th {
+  border-bottom: 2px solid rgb(97, 97, 247);
+}
+.notes-list table td,
+.notes-list table th {
+  padding: 0.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  padding: 0.5rem;
+  background-color: rgba(223, 206, 206, 0);
+  margin-right: 0.5rem;
+  font-weight: bold;
+  width: 100px;
+}
+ul li.active,
+ul li.active,
+ul li.active {
+  background-color: rgb(223, 206, 206);
+  border-top: 2px solid rgb(97, 97, 247);
+}
